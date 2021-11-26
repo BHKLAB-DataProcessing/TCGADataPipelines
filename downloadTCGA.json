@@ -1,0 +1,25 @@
+{
+    "pipeline": {
+      "name": "downloadTCGA"
+    },
+    "transform": {
+      "image": "bhklab/pharmacogx2.0:v3",
+      "cmd": [
+        "Rscript", 
+        "/pfs/downloadTCGA/downloadTCGA.R"]
+    },
+    "resource_requests": {
+      "memory": "8G"
+    },
+    "input": {
+      "cross": [
+        {
+          "git": {
+            "url": "https://github.com/BHKLAB-Pachyderm/downloadTCGA.git",
+            "name": "",
+            "branch": "main"
+          }
+        }
+      ]
+    }
+}
