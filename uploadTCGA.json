@@ -24,12 +24,6 @@
         {
             "pfs": {
               "repo": "downloadTCGA",
-              "glob": "/*.rds"
-            }
-        },
-        {
-            "pfs": {
-              "repo": "downloadTCGA",
               "glob": "/*.csv"
             }
         }
