@@ -24,7 +24,7 @@
         {
             "pfs": {
               "repo": "downloadTCGA",
-              "glob": "/*.csv"
+              "glob": "/"
             }
         }
       ]
