@@ -24,14 +24,12 @@
         {
             "pfs": {
               "repo": "downloadTCGA",
-              "name": "input_rds",
               "glob": "/*.rds"
             }
         },
         {
             "pfs": {
               "repo": "downloadTCGA",
-              "name": "input_csv",
               "glob": "/*.csv"
             }
         }
