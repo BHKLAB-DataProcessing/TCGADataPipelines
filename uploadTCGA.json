@@ -6,7 +6,10 @@
       "image": "bhklab/python_zenodo",
       "cmd": [
             "python3",
-            "/pfs/ZenodoUpload/upload_multi.py"
+            "/pfs/ZenodoUpload/upload_multi.py",
+            "downloadTCGA"
+            "TCGA Data",
+            "TCGA Data by disease type"
         ]
     },
     "resource_requests": {
